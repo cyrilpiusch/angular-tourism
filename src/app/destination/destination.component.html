@@ -1,0 +1,15 @@
+
+<div class="container py-5">
+ <h1 class="head">EXPLORE INDIA</h1> 
+  <div class="row row-cols-1  row-cols-md-4 g-1.5rem">
+      @for(item of states; track item.id)
+      {
+        <div class="col mt-3">
+          <a class="a2" routerLink="{{item.id}}">
+          <app-cards [data]="item"></app-cards>
+          </a>
+        </div>
+      }
+  </div>
+ 
+</div>

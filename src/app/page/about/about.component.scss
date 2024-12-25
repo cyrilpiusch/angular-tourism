@@ -1,0 +1,41 @@
+.bo {
+    
+    background-image: url(https://plus.unsplash.com/premium_photo-1723582820291-2758c550597e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 80px 0;
+}
+
+.container{
+    margin-top: 10%;
+    opacity:0.7;
+}
+.container1{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity:0.7;
+}
+
+.about .container {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #555;
+}
